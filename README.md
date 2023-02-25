@@ -6,13 +6,13 @@
 
 
 
-## VirtualBox is a Virtual Machine provider. The virtual machines themselves will be spawned using VirtualBox. VirtualBox is free and lightweight, which make it a perfect choice for us.
+- VirtualBox is a Virtual Machine provider. The virtual machines themselves will be spawned using VirtualBox. VirtualBox is free and lightweight, which make it a perfect choice for us.
 
 
 
-# Vagrant is a tool that sits on top of a VM provider. Again, we chose to use VirtualBox as a provider, but other providers exist out there and Vagrant offers the possibilty to use dfferent providers (More info here). Just like VirtualBox, we choose to use Vagrant because it is free, reliable and well maintained. Keep in mind that the purpose here is to use Virtual environments, and both VirtualBox and Vagrant are just means to achieve this purpose.
+- Vagrant is a tool that sits on top of a VM provider. Again, we chose to use VirtualBox as a provider, but other providers exist out there and Vagrant offers the possibilty to use dfferent providers (More info here). Just like VirtualBox, we choose to use Vagrant because it is free, reliable and well maintained. Keep in mind that the purpose here is to use Virtual environments, and both VirtualBox and Vagrant are just means to achieve this purpose.
 
-![](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7geIw9yJLQPsHl59_EufDgIOdtOOBABLnlg&usqp=CAU)
+![]( )
 
 # Alternatives
 
@@ -32,7 +32,7 @@
 
 - On the other hands, most of their tools come for a price.
 
-#Docker
+# Docker
 
 - Containerization is a very good and efficient alternative to VMs for development environments
 
@@ -40,9 +40,9 @@
 
 - The inconvinience of containers is that they sit on top of your OS. Unlike virtual machines, they don’t emulate the hardware, but rather share your machine’s hardware. We won’t go into the details of how containerization works, but to keep it simple, that means that if you run MacOS, it is not possible to run a Linux or Windows container. (Docker makes it work using VMs).
 
-#More info here
+# More info here
 
-#Conclusion
+# Conclusion
 
 - VirtualBox and Vagrant together allow you to manage and ship isolated development environments. Those isolated environments in the context of the school (and in the future, in the context of a company) allow you to match the environment we use to automatically check your work.
 
